@@ -45,9 +45,9 @@ const App = () => {
           "loggedInUser",
           JSON.stringify({ role: "employee", data: employee })
         );
+      } else {
+        alert("Invalid Email and Password");
       }
-    } else {
-      alert("Invalid Email and Password");
     }
   };
 

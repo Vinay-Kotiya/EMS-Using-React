@@ -11,8 +11,8 @@ const Login = ({ handleLogin }) => {
   const [password, setPassword] = useState("");
   const onSubmitHeandler = (e) => {
     e.preventDefault();
-    console.log("Email is ", email);
-    console.log("Password is ", password);
+    // console.log("Email is ", email);
+    // console.log("Password is ", password);
     handleLogin(email, password);
     setEmail("");
     setPassword("");
