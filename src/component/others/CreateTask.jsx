@@ -42,12 +42,13 @@ const CreateTask = () => {
 
     setUSerData(data);
     // localStorage.setItem("employees", JSON.stringify(data));
-
-    // setAssignTo("");
-    // setTaskCategory("");
-    // setTaskDate("");
-    // setTaskDescription("");
-    // setTaskTitle("");
+    if (newTask) {
+      setAssignTo("");
+      setTaskCategory("");
+      setTaskDate("");
+      setTaskDescription("");
+      setTaskTitle("");
+    }
   };
   return (
     <div className="bg-[#2c2c2c] p-5 mt-10 rounded">
