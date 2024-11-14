@@ -20,13 +20,13 @@ const AllTask = (callAgain) => {
   console.log(userData);
 
   return (
-    <div className="bg-[#2c2c2c] w-full overflow-auto rounded mt-5 p-5 ">
+    <div className="bg-[#2c2c2c] w-full overflow-auto rounded mt-5 p-2 ">
       <div className=" flex bg-white justify-around py-2  mb-3 px-4 rounded">
-        <h1 className="text-black font-bold text-lg">Employee Name</h1>
-        <h3 className="text-black font-bold text-lg">New Task</h3>
-        <h3 className="text-black font-bold text-lg">Active Task </h3>
-        <h3 className="text-black font-bold text-lg">Completed</h3>
-        <h3 className="text-black font-bold text-lg">Failed</h3>
+        <h1 className="text-black font-bold text-sm">Employee Name</h1>
+        <h3 className="text-black font-bold text-sm">New Task</h3>
+        <h3 className="text-black font-bold text-sm">Active Task </h3>
+        <h3 className="text-black font-bold text-sm">Completed</h3>
+        <h3 className="text-black font-bold text-sm">Failed</h3>
       </div>
       <div className="">
         {userData.map((elem) => {
