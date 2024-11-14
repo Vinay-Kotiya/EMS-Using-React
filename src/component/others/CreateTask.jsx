@@ -24,7 +24,7 @@ const CreateTask = () => {
     });
     // const data = JSON.parse(localStorage.getItem("employees"));
     const data = userData;
-    console.log(data);
+    // console.log(data);
 
     data.forEach((elem) => {
       if (assignTo) {
@@ -32,7 +32,7 @@ const CreateTask = () => {
           if (newTask) {
             elem.tasks.push(newTask);
             setUSerData(elem.taskCounts.newTask++);
-            console.log(elem);
+            // console.log(elem);
           }
         }
       } else {
